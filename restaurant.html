@@ -5,38 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UKitch</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
         <div>
-            <div>
-                <span><img src="assets/restaurant.jpg" alt="restaurant icon"></span>
-                <h2>UKitch</h2>
-                <p>More than just a meal</p>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#locations">Locations</a></li>
-                    <li><a href="#menu">Menu</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+            <span><img src="../assets/restaurant.jpg" alt="restaurant icon"></span>
+            <h2>UKitch</h2>
+            <p>More than just a meal</p>
         </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#locations">Locations</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
     <aside>
         <div>
             <h2>UKitch</h2>
-            <button class="flex flex-col justify-center items-center gap-1.5 w-10 h-10">
-                <span class="block w-6 h-0.5 bg-black"></span>
-                <span class="block w-6 h-0.5 bg-black"></span>
-                <span class="block w-6 h-0.5 bg-black"></span>
+            <button>
+                <span></span>
+                <span></span>
+                <span></span>
             </button>
         </div>
         <div>
             <span>About</span>
+            <span>Services</span>
             <span>Menus</span>
             <span>Locations</span>
             <span>Events</span>
@@ -44,24 +44,78 @@
         </div>
     </aside>
     <main>
+        <section id="hero">
+            <h1>A Meal For Every Mood</h1>
+            <p> From family dinners to romantic evenings, UKitch creates unforgettable dining experiences.</p>
+            <a href="#menu">View Menu</a>
+            <a href="#contact">Reserve a Table</a>
+        </section>
         <section id="about">
-            <p>Welcome to <span>UKitch</span>, a restaurant that is more than just about meals. We were established in 2010 by a group of foodie lovers who wanted to share thir joy with the rest of the world. <span>A small step that led us here😁</span></p>
-            <p>We go beyond just meals but still, we offer deluxe meals. Our menu are crafted to make everyone feel satisfied; whether it's kids, vegans, meat lovers, sea lovers- we have meals for everyone</p>
-            <p>is it a party, just breakfast, brunch with friends, client coffee meet or a romantic date night, our reservations are here to ensure an unforgettable experience</p>
+            <p>Welcome to <span>UKitch</span>, a restaurant that is more than just about meals. We were established in
+                2010 by a group of food and vibe lovers who wanted to share their joy with the rest of the world.
+                <span>A small step that led us here😁</span>
+            </p>
+            <p>We go beyond just meals but still, we offer deluxe meals. Our menu are crafted to make everyone feel
+                satisfied; whether it's kids, vegans, meat lovers, sea lovers- we have meals for everyone</p>
+            <p>is it a party, just breakfast, brunch with friends, client coffee meet or a romantic date night, our
+                reservations are here to ensure an unforgettable experience</p>
             <article>
                 <div>Image displays</div>
             </article>
         </section>
-        section#menu
+        <section id="services">
+            <h2>Our Services</h2>
+            <article>
+                <h3>Dine In</h3>
+                <p>Enjoy a premium dining experience.</p>
+            </article>
+            <article>
+                <h3>Private Events</h3>
+                <p>Host birthdays, weddings and celebrations.</p>
+            </article>
+            <article>
+                <h3>Corporate Catering</h3>
+                <p>Professional catering for business events.</p>
+            </article>
+        </section>
+        <section id="menu">
+            <h2>Select from our wide selction of dishes</h2>
+            <div class="side_menu">
+                <a href="#">Breakfast</a>
+                <a href="#">Brunch</a>
+                <a href="#">Lunch</a>
+                <a href="#">Dinner</a>
+                <a href="#">Kids</a>
+                <a href="#">Takeaway</a>
+                <a href="#">Date</a>
+                <a href="#">Group</a>
+            </div>
+            <div class="about_menu">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet, hic. Cupiditate beatae pariatur sed
+                repudiandae et, quasi, exercitationem corrupti explicabo voluptas temporibus reiciendis voluptatem ad
+                earum, culpa recusandae iste sint.
+            </div>
+            <div class="menu_actions">
+                <button>Download</button>
+                <button>Share</button>
+            </div>
+        </section>
+        <section id="locations">
+            <h2>Discover our branch near you</h2>
+        </section>
+        <section id="events">
+            <h3>Discover which events we are bringing you and mark your calendar</h3>
+        </section>
         <section id="contact">
-            <p>Have something to share with us, whether it's feedback, complaint, suggestion or just review, we would love to hear from you</p>
+            <p>Have something to share with us, whether it's feedback, complaint, suggestion or just review, we would
+                love to hear from you</p>
             <form method="post">
-                <input type="email" name="email" id="email"placeholder="johndoe@gmal.com"><br>
+                <input type="email" name="email" id="email" placeholder="johndoe@gmal.com"><br>
                 <textarea name="message" id="textarea"></textarea><br>
                 <button type="submit">Send message</button>
             </form>
             <p>Visited one of our establishments? Rate us</p>
-            <span></span>
+            <span>stars</span>
         </section>
     </main>
     <footer>
