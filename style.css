@@ -78,6 +78,8 @@ nav a {
 nav a:hover,
 nav a:focus {
     color: #b22222;
+    background: none;
+    outline: none;
 }
 
 header {
@@ -653,16 +655,15 @@ footer a {
     color: #d3d3d3;
     transition: color .3s ease;
 }
-footer a:hover {
+footer a:hover,
+footer a:focus {
     color: #c0392b;
+    background: none;
+    outline: none;
 }
 .copyright {
     background-color: #111;
     text-align: center;
     padding: 1rem;
     color: #bbb;
-}
-footer a:focus {
-    outline: 3px solid orange;
-    outline-offset: 3px;
 }
