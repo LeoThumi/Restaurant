@@ -183,7 +183,8 @@
             <section id="locations" aria-labelledby="locations-title">
                 <span class="section_tag">Our Branches</span>
                 <h2 id="locations_title"> Discover a UKitch Near You</h2>
-                <p class="location_intro"> Visit any of our branches for the same exceptional service, delicious meals, and welcoming atmosphere. </p>
+                <p class="location_intro"> Visit any of our branches for the same exceptional service, delicious meals,
+                    and welcoming atmosphere. </p>
                 <div class="locations_grid">
                     <article class="location_card">
                         <img src="assets/location1.jpg" alt="UKitch Karen Branch">
@@ -217,20 +218,69 @@
                     </article>
                 </div>
             </section>
-            <section id="events">
-                <h3>Discover which events we are bringing you and mark your calendar</h3>
+            <section id="events" aria-labelledby="events-title">
+                <span class="section_tag">Upcoming Experiences</span>
+                <h2 id="events_title"> Mark Your Calendar</h2>
+                <p class="events_intro"> From live entertainment to themed dining nights, there's always something
+                    exciting happening at UKitch.</p>
+                <div class="events_grid">
+                    <article class="event_card">
+                        <img src="assets/wine.jpg" alt="Wine night">
+                        <div class="event_content">
+                            <span class="event_date">Every Friday</span>
+                            <h3>Wine & Dine Night</h3>
+                            <p> Enjoy quality meals paired with premium wines in a relaxed evening atmosphere.</p>
+                            <button>Reserve Your Spot</button>
+                        </div>
+                    </article>
+                    <article class="event_card">
+                        <img src="assets/liveMusic.jpg" alt="Live music performance">
+                        <div class="event_content">
+                            <span class="event_date">Every Saturday</span>
+                            <h3>Live Music Sessions</h3>
+                            <p>Experience live performances from talented local artists while enjoying your favorite
+                                dishes.</p>
+                            <button>Learn More</button>
+                        </div>
+                    </article>
+                    <article class="event_card">
+                        <img src="assets/family.jpg" alt="Family enjoying meals together">
+                        <div class="event_content">
+                            <span class="event_date">Last Sunday Monthly</span>
+                            <h3>Family Fun Day</h3>
+                            <p> Special kids' menu, games, entertainment, and family dining packages. </p>
+                            <button>Book a Table</button>
+                        </div>
+                    </article>
+                </div>
             </section>
-            <section id="contact">
-                <p>Have something to share with us, whether it's feedback, complaint, suggestion or just review, we
-                    would
-                    love to hear from you</p>
-                <form method="post">
-                    <input type="email" name="email" id="email" placeholder="johndoe@gmail.com"><br>
-                    <textarea name="message" id="textarea"></textarea><br>
-                    <button type="submit">Send message</button>
-                </form>
-                <p>Visited one of our establishments? Rate us</p>
-                <span>stars</span>
+            <section id="contact" aria-labelledby="contact-title">
+                <span class="section-tag">Get In Touch</span>
+                <h2 id="contact-title"> We'd Love To Hear From You</h2>
+                <p class="contact-intro">Whether you have feedback, a reservation request, an inquiry, or simply want to share your dining experience, our team is ready to assist.</p>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <p>Karen Shopping Centre, Nairobi</p>
+                        <p>+254 000 000 000</p>
+                        <p>contact@ukitch.co.ke</p>
+                        <p>Open Daily: 7:00 AM - 10:00 PM</p>
+                    </div>
+                    <form action="#" method="post">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="John Doe" required>
+                        <label for="email">Email Address</label>
+                        <input type="email" name="email" id="email" placeholder="johndoe@gmail.com" required>
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="6" placeholder="Tell us more..." required></textarea>
+                        <button type="submit"> Send Message</button>
+                    </form>
+                </div>
+                <div class="review-section">
+                    <h3>Rate Your Experience</h3>
+                    <p>Visited one of our branches? We'd appreciate your feedback.</p>
+                    <div class="stars">★★★★★</div>
+                </div>
             </section>
         </article>
     </main>
