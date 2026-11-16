@@ -625,3 +625,44 @@ form button:hover {
     margin-top: 1rem;
     cursor: pointer;
 }
+footer {
+    background-color: #1c1c1c;
+    color: white;
+    padding: 4rem 10%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+}
+footer h3,
+footer h4 {
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+footer p {
+    color: #d3d3d3;
+    line-height: 1.8;
+}
+footer ul {
+    list-style: none;
+}
+
+footer li {
+    margin-bottom: .75rem;
+}
+footer a {
+    color: #d3d3d3;
+    transition: color .3s ease;
+}
+footer a:hover {
+    color: #c0392b;
+}
+.copyright {
+    background-color: #111;
+    text-align: center;
+    padding: 1rem;
+    color: #bbb;
+}
+footer a:focus {
+    outline: 3px solid orange;
+    outline-offset: 3px;
+}
