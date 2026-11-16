@@ -10,12 +10,14 @@
 
 <body>
     <header>
-        <div>
-            <span><img src="../assets/restaurant.jpg" alt="restaurant icon"></span>
-            <h2>UKitch</h2>
-            <p>More than just a meal</p>
+        <div class="logo_area">
+            <img src="assets/restaurant.jpg" alt="restaurant icon" width="60" height="60">
+            <div>
+                <h2>UKitch</h2>
+                <p>More than just a meal</p>
+            </div>
         </div>
-        <nav>
+        <nav aria-label="Main naviagtion">
             <ul>
                 <li><a href="#about">About</a></li>
                 <li><a href="#services">Services</a></li>
@@ -28,11 +30,7 @@
     <aside>
         <div>
             <h2>UKitch</h2>
-            <button>
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
+            <img src="assets/menu.png" alt="">
         </div>
         <div>
             <span>About</span>
@@ -110,7 +108,7 @@
             <p>Have something to share with us, whether it's feedback, complaint, suggestion or just review, we would
                 love to hear from you</p>
             <form method="post">
-                <input type="email" name="email" id="email" placeholder="johndoe@gmal.com"><br>
+                <input type="email" name="email" id="email" placeholder="johndoe@gmail.com"><br>
                 <textarea name="message" id="textarea"></textarea><br>
                 <button type="submit">Send message</button>
             </form>
