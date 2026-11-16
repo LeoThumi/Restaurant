@@ -195,6 +195,7 @@ aside {
     margin-bottom: 1.5rem;
     color: #222;
 }
+
 .about_content {
     display: flex;
     align-items: center;
@@ -250,4 +251,78 @@ aside {
     color: #c0392b;
     font-size: 2rem;
     margin-bottom: .5rem;
+}
+
+#services {
+    padding: 5rem 10%;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+#services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #222;
+}
+
+.section-description {
+    max-width: 700px;
+    margin: 0 auto 3rem;
+    color: #666;
+    line-height: 1.8;
+}
+
+.services_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.service_card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, .08);
+    transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.service_card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, .15);
+}
+
+.service_card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.service_card h3 {
+    margin: 1.5rem 1rem 1rem;
+    color: #b22222;
+}
+
+.service_card p {
+    padding: 0 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #555;
+    line-height: 1.7;
+}
+
+.service_card a {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    padding: 0.8rem 1.3rem;
+    background-color: #b22222;
+    color: white;
+    border-radius: 6px;
+    transition: background-color .3s ease;
+}
+
+.service_card a:hover,
+a:focus,
+button:focus {
+    background-color: #8b0000;
+    outline: 3px solid #f39c12;
+    outline-offset: 3px;
 }
