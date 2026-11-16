@@ -79,6 +79,7 @@ nav a:hover,
 nav a:focus {
     color: #b22222;
 }
+
 header {
     background-color: white;
     padding: 0.4rem 1rem;
@@ -90,6 +91,7 @@ header {
     box-shadow: 0 2px 10px #0000001a;
     z-index: 100;
 }
+
 main {
     display: flex;
     width: 100%;
@@ -128,4 +130,124 @@ aside {
 .main_section {
     width: calc(100% - 65px);
     margin-left: 65px;
+}
+
+#hero {
+    min-height: 100vh;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
+        url("assets/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 2rem;
+}
+
+#hero p {
+    max-width: 700px;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    line-height: 1.8;
+}
+
+#hero a {
+    display: inline-block;
+    padding: 0.9rem 1.5rem;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: 0.3s;
+    margin: 0.5rem;
+}
+
+#hero a:first-of-type {
+    background-color: #c0392b;
+    color: white;
+}
+
+#hero a:last-of-type {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+#hero a:first-of-type:hover {
+    background-color: #a93226;
+}
+
+#hero a:last-of-type:hover {
+    background-color: white;
+    color: black;
+}
+
+#about {
+    padding: 5rem 10%;
+    background-color: #fff;
+}
+
+.about_text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #222;
+}
+.about_content {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.about_text {
+    flex: 1;
+}
+
+.section_tag {
+    display: inline-block;
+    color: #c0392b;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+.about_text p {
+    margin-bottom: 1.2rem;
+    color: #555;
+    line-height: 1.8;
+}
+
+.about_image {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .15);
+}
+
+.about_stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-top: 4rem;
+}
+
+.about-stats article {
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-color: #fafafa;
+}
+
+.about-stats h3 {
+    color: #c0392b;
+    font-size: 2rem;
+    margin-bottom: .5rem;
 }
